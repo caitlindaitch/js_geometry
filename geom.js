@@ -45,8 +45,8 @@ Triangle.prototype.isIsosceles = function(sideA, sideB, sideC) {
   }
 }
 
-Triangle.prototype.area = function(sideA, sideB, sideC) {
-  return sideA * sideB * sideC;
+Triangle.prototype.area = function(sideA, sideB) {
+  return (sideA * sideB)/2;
 }
 
 Triangle.prototype.isObtuse = function(sideA, sideB, sideC) {
